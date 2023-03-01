@@ -1,0 +1,76 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	background-color: #d5dae0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+    ::-webkit-scrollbar-thumb {
+    background: #3370ff; 
+    border-radius: 10px;
+  }
+
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c60d84f; 
+  }
+
+
+  section{
+	background-color: #c1d0eea1;
+  }
+
+section {
+
+	padding-left: 10vw;
+	padding-right: 10vw;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+h1 {
+	text-align: center;
+}
+ .wyszukiwarki {
+width: 80%;
+text-align: center;
+ }
+
+
+.kontakt{
+	margin-left: 0vw;
+	margin-right: 0vw;
+}
+
+:placeholder-shown{
+	text-align: center;
+}
+.caławyszk{
+	margin-left: 3.5vw;
+}
+h2{
+	text-align: center;
+}
+
+.card{border: none;}
+.colorkontaktu{
+	width: 100vw;
+	height: auto;
+}
+
+.efekt:hover{
+	box-shadow: 10px 10px 40px 15px rgb(62, 205, 248);
+	transform: scale(1.3);
+	transition: 1s;
+	z-index: 2;
+}
+
+@media (min-width:992px) {
+	.kontakt{
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+}
